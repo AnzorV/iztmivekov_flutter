@@ -1,23 +1,13 @@
-import 'package:carousel_slider/carousel_slider.dart';
-import 'package:ecommerceshop/common/widgets/appbar/appbar.dart';
 import 'package:ecommerceshop/common/widgets/custom_shapes/containers/primary_header_container.dart';
 import 'package:ecommerceshop/common/widgets/layouts/grid_layout.dart';
 import 'package:ecommerceshop/features/shop/screens/home/widgets/home_appbar.dart';
 import 'package:ecommerceshop/features/shop/screens/home/widgets/home_categories.dart';
 import 'package:ecommerceshop/features/shop/screens/home/widgets/promo_slider.dart';
-import 'package:ecommerceshop/utils/constants/colors.dart';
 import 'package:ecommerceshop/utils/constants/image_strings.dart';
 import 'package:ecommerceshop/utils/constants/sizes.dart';
-import 'package:ecommerceshop/utils/constants/text_strings.dart';
-import 'package:ecommerceshop/utils/device/device_utility.dart';
-import 'package:ecommerceshop/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
-import 'package:iconsax/iconsax.dart';
 
-import '../../../../common/widgets/custom_shapes/containers/circular_container.dart';
 import '../../../../common/widgets/custom_shapes/containers/search_container.dart';
-import '../../../../common/widgets/image_text_widgets/vertical_image_text.dart';
-import '../../../../common/widgets/images/t_rounded_image.dart';
 import '../../../../common/widgets/products/product_cards/product_card_vertical.dart';
 import '../../../../common/widgets/texts/section_heading.dart';
 

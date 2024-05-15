@@ -3,19 +3,14 @@ import 'package:ecommerceshop/common/widgets/appbar/tabbar.dart';
 import 'package:ecommerceshop/common/widgets/custom_shapes/containers/search_container.dart';
 import 'package:ecommerceshop/common/widgets/products/cart/cart_menu_icon.dart';
 import 'package:ecommerceshop/common/widgets/texts/section_heading.dart';
-import 'package:ecommerceshop/common/widgets/texts/t_brand_title_text_with_verified_icon.dart';
+import 'package:ecommerceshop/features/shop/screens/store/widgets/category_tab.dart';
 import 'package:ecommerceshop/utils/constants/colors.dart';
-import 'package:ecommerceshop/utils/constants/image_strings.dart';
 import 'package:ecommerceshop/utils/constants/sizes.dart';
 import 'package:ecommerceshop/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../common/widgets/brands/brand_card.dart';
-import '../../../../common/widgets/brands/brand_showcase.dart';
-import '../../../../common/widgets/custom_shapes/containers/rounded_container.dart';
-import '../../../../common/widgets/icons/t_circular_image.dart';
 import '../../../../common/widgets/layouts/grid_layout.dart';
-import '../../../../utils/constants/enums.dart';
 
 class StoreScreen extends StatelessWidget {
   const StoreScreen({super.key});
@@ -73,9 +68,13 @@ class StoreScreen extends StatelessWidget {
             ),
           ];
         },
-            body:  TabBarView(
+            body: const TabBarView(
                 children: [
-           
+             TCategoryTab(),
+                  TCategoryTab(),
+                  TCategoryTab(),
+                  TCategoryTab(),
+                  TCategoryTab(),
             ]),
         ),
       ),

@@ -1,10 +1,8 @@
 import 'package:ecommerceshop/utils/constants/image_strings.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
 import '../../../../utils/constants/colors.dart';
-import '../../../../utils/constants/enums.dart';
 import '../../../../utils/constants/sizes.dart';
 import '../../../../utils/helpers/helper_functions.dart';
 import '../../../styles/shadows.dart';
@@ -48,7 +46,7 @@ class TProductCardVertical extends StatelessWidget {
               child: Stack(
                 children: [
                   /// -- Thumbnail Image
-                  Center(child: TRoundedImage(imageUrl: TImages.productImage1, applyImageRadius: true)),
+                  const Center(child: TRoundedImage(imageUrl: TImages.productImage1, applyImageRadius: true)),
 
             Positioned(
     top: 12,

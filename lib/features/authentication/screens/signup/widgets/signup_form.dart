@@ -1,11 +1,9 @@
 import 'package:ecommerceshop/features/authentication/screens/signup/verify_email.dart';
 import 'package:ecommerceshop/features/authentication/screens/signup/widgets/terms_conditions_checkbox.dart';
-import 'package:ecommerceshop/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
-import '../../../../../utils/constants/colors.dart';
 import '../../../../../utils/constants/sizes.dart';
 import '../../../../../utils/constants/text_strings.dart';
 

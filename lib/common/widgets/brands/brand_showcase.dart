@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 import '../../../utils/constants/colors.dart';
-import '../../../utils/constants/image_strings.dart';
 import '../../../utils/constants/sizes.dart';
 import '../../../utils/helpers/helper_functions.dart';
 import '../custom_shapes/containers/rounded_container.dart';
@@ -25,6 +24,7 @@ class TBrandShowcase extends StatelessWidget {
       child: Column(
         children: [
           const TBrandCard(showBorder: false),
+          const SizedBox(height: TSizes.spaceBtwItems),
 
           Row(
             children: images.map((image) => brandTopProductImageWidget(image, context)).toList(),

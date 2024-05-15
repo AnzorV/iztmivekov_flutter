@@ -7,7 +7,6 @@ import 'package:iconsax/iconsax.dart';
 import '../../../../../navigation_menu.dart';
 import '../../../../../utils/constants/sizes.dart';
 import '../../../../../utils/constants/text_strings.dart';
-import '../../signup/signup.dart';
 
 class TLoginForm extends StatelessWidget {
   const TLoginForm({
